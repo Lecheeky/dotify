@@ -1,0 +1,86 @@
+@font-face {
+    font-family: circular;
+    src: url(../fonts/circular-std-2.ttf);
+}
+
+*{
+    font-family: circular;
+    color: white;
+    background-color: black;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.left-navbar{
+    position: relative;
+    left: 5vw;
+    display: flex;
+}
+
+.left-navbar h2{
+    font-size: 45px;
+    margin: auto;
+}
+
+.left-navbar input{
+    position: relative;
+    height: 40px;
+    width: 400px;
+    align-self: center;
+    left: 3vw;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: rgb(43, 43, 43);
+}
+
+.right-list-navbar-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    right: 3vw;
+    margin: auto;
+}
+
+.right-list-navbar-container{
+
+}
+
+.right-list-navbar-container li{
+    font-size: 17px;
+    margin-right: 3vw;
+}
+
+.nav-button-hide{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1400px){
+
+    .right-list-navbar-container li{
+        display: none;
+    }
+    .nav-button-hide{
+        display: block;
+    }
+}
+    
